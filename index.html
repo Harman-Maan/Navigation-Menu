@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" href="NavMenuCSS.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="menuToggle" onclick="ToggleMenu()"></div>
+      <div class="navigation">
+        <div class="navArea">
+          <ul>
+            <a href="#" onmouseenter="changeimage('NavBar-Images/img1.jpg')">
+              <li>Home</li>
+            </a>
+            <a href="#" onmouseenter="changeimage('NavBar-Images/img2.jpg')">
+              <li>About</li>
+            </a>
+            <a href="#" onmouseenter="changeimage('NavBar-Images/img3.jpg')">
+              <li>Services</li>
+            </a>
+            <a href="#" onmouseenter="changeimage('NavBar-Images/img4.jpg')">
+              <li>Portfolio</li>
+            </a>
+            <a href="#" onmouseenter="changeimage('NavBar-Images/img5.jpg')">
+              <li>Team</li>
+            </a>
+            <a href="#" onmouseenter="changeimage('NavBar-Images/img6.jpg')">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
+        <div class="imgArea">
+          <img src="NavBar-Images/img1.jpg" id="slider" />
+        </div>
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
